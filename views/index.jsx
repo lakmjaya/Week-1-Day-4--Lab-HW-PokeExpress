@@ -1,0 +1,1 @@
+const clickedPokemon = this.Pa
