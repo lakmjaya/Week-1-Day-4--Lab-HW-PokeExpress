@@ -1,8 +1,11 @@
 const React = require('react')
+
 const myStyle = {
-   color: '#ffffff',
-   backgroundColor: '#000000',
- };
+    color: 'yellow',
+    backgroundColor: 'blue',
+};
+
+
 class Show extends React.Component {
    render () {
    const Pokemon = this.props.pokemon;

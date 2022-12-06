@@ -18,8 +18,8 @@ app.get('/pokemon', function(req, res) {
     res.render('Index',{pokemonList: pokemon});
   });
 
-app.get('/pokemon/:id', function (req,res){
-    res.render('Show', {pokemon:[req.params.id]})
+app.get('/pokemon/:id', function (req, res){
+    res.render('Show', {pokemon:pokemon[req.params.id]})
 });
 
 app.listen(port, () => {
