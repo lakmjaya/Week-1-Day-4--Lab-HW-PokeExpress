@@ -10,7 +10,7 @@ app.set('view engine', 'jsx');
 app.engine('jsx', require('express-react-views').createEngine());
 
 app.get('/', function(req, res) {
-    res.send('Welcome to the Pokemon App!');
+    res.send(<h3>'Welcome to the Pokemon App!'</h3>);
   });
   
 

@@ -8,8 +8,8 @@ const myStyle = {
 
 class Show extends React.Component {
    render () {
-   const Pokemon = this.props.pokemon;
-   
+   const {Pokemon} = this.props;
+   console.log(this.props)
     return (
       <div>
       <h1 style ={myStyle}>Gotta Catch 'Em All</h1>
